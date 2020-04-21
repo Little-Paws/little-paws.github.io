@@ -19,11 +19,6 @@ form {
 		border: 1px solid #ddd;
 
 
-		&, &:focus {
-			border-top-left-radius: 30px;
-			border-bottom-left-radius: 30px;
-		}
-
 		&:focus {
 			box-shadow: 0 0 5px 0 $brand-color;
 			outline: none;
