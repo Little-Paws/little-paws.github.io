@@ -9,6 +9,26 @@ html, body {
 img {
 	max-width: 100%;
 }
+form {
+
+
+	input[type="text"] {
+		flex-grow: 1;
+		flex-shrink: 1;
+		width: 100%;
+		border: 1px solid #ddd;
+
+
+		&, &:focus {
+			border-top-left-radius: 30px;
+			border-bottom-left-radius: 30px;
+		}
+
+		&:focus {
+			box-shadow: 0 0 5px 0 $brand-color;
+			outline: none;
+		}
+	}
 
 hr {
 	height:1px;
