@@ -3,7 +3,9 @@ html, body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   color: #333;
-  min-width: 380px; }
+  min-width: 380px; 
+  background-color: lightgray;
+}
 
 img {
   max-width: 100%; }
